@@ -1,0 +1,636 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>BudgetBot 2018</title>
+	<!--/tags -->
+	<link rel="icon" href="aa.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_Pb0L4PtZNhNlyJcvK6cts");
+   })();
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!--//tags -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //for bootstrap working -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
+	    rel='stylesheet' type='text/css'>
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+		.grid-style{
+			background-color: #b2d4f1;
+		}
+	</style>
+
+	<script>
+
+$(function() {
+
+   $.getJSON('demo.json', function(data) {
+       $.each(data.updates, function(i, f) {
+          var tblRow = "<li>" + f.update1 + "</li>" +
+           "<li>" + f.update2 + "</li>" + "<li>" + f.update3 + "</li>" + "<li>" + f.update4 + "</li>" + "<li>" + f.update5 + "</li>" + "<li>" + f.update6 + "</li>" + "<li>" + f.update7 + "</li>" + "<li>" + f.update8 + "</li>" + "<li>" + f.update9 + "</li>" + "<li>" + f.update10 + "</li>" 
+           $(tblRow).appendTo("#updatedata ul");
+     });
+
+   });
+
+});
+</script>	
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header" id="home">
+		<div class="top_menu_w3layouts">
+
+			<div>
+				<marquee><b><span style="color: #fff;">Catch the budget live only on </span><em><a href="http://moneycontrol.com" style="color:cyan" target="_blank">moneycontrol.com</a></em></b></span></marquee>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+
+		<div class="content white">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="logo.png">
+						</a>
+					</div>
+					<!--/.navbar-header-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<nav>
+							<ul class="nav navbar-nav">
+								<li><a href="index.html" class="active">Home</a></li>
+								<li><a href="#agents">Explore</a></li>
+								<li><a href="#bot">Chat Now</a></li>
+								<li><a href="subscribe/index.html" target="_blank">Subscribe</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!--/.navbar-collapse-->
+					<!--/.navbar-->
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- banner -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="container">
+					<div class="carousel-caption">
+						
+						<div class="banner_form_agileits">
+							<h2>Budget<span> <b><em>at a glance.</em></b></span></h2>
+							<p>Moving towards a simplified tax regime.</p>
+							<p>Railways, engine of growth.</p>
+							<p>Transforming villages to transform lives.</p>
+							<!--<form action="#" method="post">
+								<input type="search" name="search" placeholder="Search here..." required="">
+								<select id="country12" onchange="change_country(this.value)" class="frm-field required">
+																			<option value="null"> Select Category</option>
+																			<option value="city">Tips</option>
+																			<option value="city">Tricks</option>
+																			<option value="city">Installation Guide</option>
+																			<option value="city">Plugin Setting</option>
+																			<option value="city">Category Change</option>
+																			
+															</select>
+								<input type="submit" value="Search">
+								<div class="clearfix"></div>
+							</form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item2">
+				<div class="container">
+					<div class="carousel-caption">
+						<h2>Stay informed, <span><b><em>with the market leader.</em></b></span></h2>
+						<p>Focus on developing a high growth business</p>
+						<p>Winning organisation and people</p>
+						<p>Relentless innovation and Venture strategies.</p>
+						<div class="banner_form_agileits">
+							<!--<form action="#" method="post">
+								<input type="search" name="search" placeholder="Search here..." required="">
+								<select id="country12" onchange="change_country(this.value)" class="frm-field required">
+																			<option value="null"> Select Category</option>
+																			<option value="city">Tips</option>
+																			<option value="city">Tricks</option>
+																			<option value="city">Installation Guide</option>
+																			<option value="city">Pluggin Setting</option>
+																			<option value="city">Category Change</option>
+																			
+															</select>
+								<input type="submit" value="Search">
+								<div class="clearfix"></div>
+							</form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item3">
+				<div class="container">
+					<div class="carousel-caption">
+						<h2>Good and Services Tax, <span><b><em>we've got you covered.</em></b></span></h2>
+						<p>Board the benefits of single taxtation</p>
+						<p>A nation is made, when taxes are paid.</p>
+						<p>17 types of taxes ended with GST</p>
+						<div class="banner_form_agileits">
+							<!--<form action="#" method="post">
+								<input type="search" name="search" placeholder="Search here..." required="">
+								<select id="country12" onchange="change_country(this.value)" class="frm-field required">
+																			<option value="null"> Select Category</option>
+																			<option value="city">Tips</option>
+																			<option value="city">Tricks</option>
+																			<option value="city">Installation Guide</option>
+																			<option value="city">Pluggin Setting</option>
+																			<option value="city">Category Change</option>
+																			
+															</select>
+								<input type="submit" value="Search">
+								<div class="clearfix"></div>
+							</form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item4">
+				<div class="container">
+					<div class="carousel-caption">
+
+						<h2>More ways to stay connected,<br><span><b><em>the most in the market.</em></b></span></h2>
+						<p>Invest in the stock market</p>
+						<p>How to invest in market for beginners</p>
+						<p>Why to invest in stock market</p>
+						<div class="banner_form_agileits">
+							<!--<form action="#" method="post">
+								<input type="search" name="search" placeholder="Search here..." required="">
+								<select id="country12" onchange="change_country(this.value)" class="frm-field required">
+																			<option value="null"> Select Category</	option>
+																			<option value="city">Tips</option>
+																			<option value="city">Tricks</option>
+																			<option value="city">Installation Guide</option>
+																			<option value="city">Plugin Setting</option>
+																			<option value="city">Category Change</option>
+																			
+															</select>
+								<input type="submit" value="Search">
+								<div class="clearfix"></div>
+							</form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="fa fa-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		<!-- The Modal -->
+	</div>
+	<!--//banner -->
+	<!--/icons-->
+	<div class="banner-bottom">
+		<div class="container" id="agents">
+			<div class="tittle_head_w3layouts">
+				<h3 class="tittle main">The fastest ways to stay informed <em><b>(yes, 6 ways!)</b></em></h3>
+
+			</div>
+			<div class="inner_sec_info_agileits_w3">
+				<div class="row" style="margin-bottom:20px;">
+					<a target="_blank" href="https://slack.com/oauth/authorize?scope=incoming-webhook&client_id=223486128514.287176808737"><div style="margin: 5px;" class="col-md-4 grid_info grid-style">
+						<div class="icon_info">
+							<span class="fa fa-slack" aria-hidden="true" style="box-shadow: 0px 0px 30px #333;"></span>
+							<h5>Slack</h5>
+							<p>Slack is a cloud-based set of proprietary team collaboration tools and services.</p>
+						</div>
+					</div></a>
+					<a target="_blank" href="https://www.facebook.com/budgetbot101"><div style="margin: 5px;" class="col-md-4 grid_info grid-style">
+						<div class="icon_info">
+							<span class="fa fa-facebook-f" aria-hidden="true" style="box-shadow: 0px 0px 30px #333;"></span>
+							<h5>Facebook Messenger</h5>
+							<p>Facebook Messenger is an instant messaging service.</p>
+						</div>
+					</div></a>
+					<a target="_blank" href="https://twitter.com/911sohamSoham"><div style="margin: 5px;" class="col-md-4 grid_info grid-style">
+						<div class="icon_info">
+							<span class="fa fa-twitter" aria-hidden="true" style="box-shadow: 0px 0px 30px #333;"></span>
+							<h5>Twitter</h5>
+							<p>Twitter is an online news service where users post messages, called "tweets.</p>
+						</div>
+					</div>
+				</div></a>
+				<div class="row">
+					<a target="_blank" href="https://line.me/R/ti/p/%40xux0866i"><div style="margin: 5px;" class="col-md-4 grid_info grid-style">
+						<div class="icon_info">
+							<span class="fa fa-wechat" aria-hidden="true" style="box-shadow: 0px 0px 30px #333;"></span>
+							<h5>Line</h5>
+							<p>Line is a freeware app that reshapes communication around the globe</p>
+						</div>
+					</div></a>
+					<a target="_blank" href="https://join.skype.com/bot/54c7b54f-9885-49f5-848f-7fd7f60b2863"><div style="margin: 5px;" class="col-md-4 grid_info grid-style">
+						<div class="icon_info">
+							<span class="fa fa-skype" aria-hidden="true" style="box-shadow: 0px 0px 30px #333;"></span>
+							<h5>Skype</h5>
+							<p>Skype specializes in providing video chat and voice calls</p>
+						</div>
+					</div></a>
+					<a target="_blank" href="http://t.me/gstbudgetbot"><div style="margin: 5px;" class="col-md-4 grid_info grid-style">
+						<div class="icon_info">
+							<span class="fa fa-telegram" aria-hidden="true" style="box-shadow: 0px 0px 30px #333;"></span>
+							<h5>Telegram</h5>
+							<p>Telegram is a non-profit cloud-based instant messaging service. </p>
+						</div>
+					</div></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//icons-->
+	<!--//banner-bottom-->
+	<div class="ab_info">
+		<div class="container">
+			<div class="tittle_head_w3layouts" id="bot">
+				<h3 class="tittle">Get started with our assistant right from here!</h3>
+			</div>
+			<div class="inner_sec_info_agileits_w3">
+
+				<div class="col-md-6 banner_bottom_left">
+					<h4>All information on Budget 2018 you need <span>only @ <a href="http://www.moneycontrol.com" target="_blank"><img src="logo.png"></a></span></h4>
+					<ul class="some_agile_facts">
+						<li><span class="fa fa-code" aria-hidden="true"></span> No setup</li>
+						<li><span class="fa fa-comments" aria-hidden="true"></span> Start Chatting</li>
+						<li><span class="fa fa-info" aria-hidden="true"></span> Stay updated</li>
+						<li><span class="fa fa-check" aria-hidden="true"></span> Your favourite platforms</li>
+
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 banner_bottom_right">
+					<div class="banner_bottom_grid">
+						<!--<img src="images/ab.png" alt=" " class="img-responsive" /> -->
+						<iframe
+						    width="450"
+						    height="650"
+						    src="https://console.dialogflow.com/api-client/demo/embedded/fc17a06b-c2ba-4b90-a58d-3ccbcb815a38"
+						    style="border: 1px solid lightgray; box-shadow: -5px -5px 10px #ccc;">
+						</iframe>
+					</div>
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+
+		</div>
+	</div>
+	<!-- //ab-info -->
+	<!-- /mid -->
+	<div class="team_work" style="min-height: 220px;">
+		<h4 style="padding: 20px; line-height: 94px; margin: 0px; width: 100%; text-align: center;"><img src="logo.png"> is the only place to provide consolidated information about the budget.</h4>
+	</div>
+	<!-- //mid -->
+	<!-- /features -->
+	<div class="features" id="features">
+		<div class="container">
+			<div class="tittle_head_w3layouts">
+				<h3 class="tittle">Powerful <span>Features</span></h3>
+			</div>
+			<div class="inner_sec_info_agileits_w3">
+				<!-- <div class="border1"> -->
+				<div class="border">
+					<div class="bordergrid1">
+						<div class="text live">
+							<h4>Live Chat</h4>
+							<p>Get started with the bot quickly and solve your queries by having a live chat with our bot.</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-comment-o" aria-hidden="true"></i>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bordergrid2">
+						<div class="col-md-9 text">
+							<h4>Instant Replies</h4>
+							<p>Get instant reply to budget and GST related queries</p>
+						</div>
+						<div class="col-md-3 icon">
+							<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bordergrid5">
+						<div class="col-md-9 text">
+							<h4>Customize Quickly</h4>
+							<p>Bot has been customised for varius interfaces and web apps.</p>
+						</div>
+						<div class="col-md-3 icon">
+							<i class="fa fa-cubes" aria-hidden="true"></i>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bordergrid3">
+						<div class="col-md-3 icon">
+							<i class="fa fa-street-view" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-9 text">
+							<h4>Visitor Engagement</h4>
+							<p>Interactive budget bot capable of conversing with the user in an efficient manner.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bordergrid6">
+						<div class="col-md-3 icon">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-9 text">
+							<h4>Chat Supervision</h4>
+							<p>The messages sent by the bot are automated and continuously monitored by trained experts to improve the quality of service.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bordergrid4">
+						<div class="icon">
+							<i class="fa fa-laptop" aria-hidden="true"></i>
+						</div>
+						<div class="text live">
+							<h4>Detailed responses.</h4>
+							<p>The budget bot provides detailed responses and related links to the questions asked by the user.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bulb">
+						<img src="images/power.png" alt="" style="height: 200px;width:200px; margin-top: 150px;" />
+					</div>
+				</div>
+				<!-- </div> -->
+			</div>
+		</div>
+	</div>
+	<!-- //features -->
+	<!-- stats -->
+	<div class="stats">
+		<div class="container">
+			<div class="tittle_head_w3layouts">
+				<h3 class="tittle con">S<span>tatisticks</span></h3>
+			</div>
+			<div class="inner_sec_info_agileits_w3">
+				<div class="stats_inner_grids">
+					<div class="col-md-4 stats_left counter_grid">
+						<i class="fa fa-newspaper-o" aria-hidden="true"></i>
+						<p class="counter">2000</p>
+						<h4>Number of Articles</h4>
+					</div>
+					<div class="col-md-4 stats_left counter_grid1">
+						<i class="fa fa-slack" aria-hidden="true"></i>
+						<p class="counter">7</p>
+						<h4>Number of Integrations</h4>
+					</div>
+					<div class="col-md-4 stats_left counter_grid3">
+						<i class="fa fa-users" aria-hidden="true"></i>
+						<p class="counter">145</p>
+						<h4>Subscribers</h4>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //stats -->
+	<!-- /help_full -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="tittle_head_w3layouts">
+				<h3 class="tittle main">All GST updates, <span style="color:red"><b>LIVE</b></span></h3>
+
+			</div>
+			<div class="inner_sec_info_agileits_w3">
+					<div class="help_full">
+						<div class="col-md-6 banner_bottom_grid help">
+							<img src="images/help.jpg" alt=" " class="img-responsive">
+						</div>
+							<div class="col-md-6 banner_bottom_left">
+																		<div class="wrapper">
+										<div class="profile">
+   											<div id= "updatedata">
+            									<ul style="font-size:19px;"></ul>
+   											</div>
+										</div>
+										</div>
+									<div class="clearfix"> </div>
+								</div>
+						</div>
+					
+					<h6></h6>
+
+			</div>
+		</div>
+	</div>
+	<!-- //help_full -->
+	<!--<div class="tesimonials grid-info" style="background-color: #b2d4f1; ">
+		<div class="container">
+			<div class="tittle_head_w3layouts">
+				<h3 class="tittle con">Customer <span>Testimonials</span></h3>
+			</div>
+			<div class="inner_sec_info_agileits_w3">
+				<div class="test_grid_sec">
+					<div class="col-md-offset-2 col-md-8">
+						<div class="carousel slide two" data-ride="carousel" id="quote-carousel">
+							<!-- Bottom Carousel Indicators -->
+							<!--<ol class="carousel-indicators two">
+								<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#quote-carousel" data-slide-to="1"></li>
+								<li data-target="#quote-carousel" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Carousel Slides / Quotes -->
+							<!--<div class="carousel-inner">
+
+								<!-- Quote 1 -->
+							<!--	<div class="item active">
+									<blockquote>
+										<div class="test_grid">
+											<div class="col-sm-3 text-center test_img">
+												<img src="images/t1.jpg" alt=" " class="img-responsive" />
+
+											</div>
+											<div class="col-sm-9 test_img_info">
+												<p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+													auctor nec lacus ut tempor. Mauris.</p>
+												<h6>Sara Lisbon</h6>
+											</div>
+										</div>
+									</blockquote>
+								</div>
+								<!-- Quote 2 -->
+								<!--<div class="item">
+									<blockquote>
+										<div class="test_grid">
+											<div class="col-sm-3 text-center test_img">
+												<img src="images/t2.jpg" alt=" " class="img-responsive" />
+											</div>
+											<div class="col-sm-9 test_img_info">
+												<p>Lorem ipsum dolor sit amet. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+													auctor nec lacus ut tempor. Mauris.</p>
+												<h6>Jane Wearne</h6>
+											</div>
+										</div>
+									</blockquote>
+								</div>
+								<!-- Quote 3 -->
+								<!--<div class="item">
+									<blockquote>
+										<div class="test_grid">
+											<div class="col-sm-3 text-center test_img">
+												<img src="images/t3.jpg" alt=" " class="img-responsive" />
+											</div>
+											<div class="col-sm-9 test_img_info">
+												<p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+													auctor nec lacus ut tempor. Mauris.</p>
+												<h6>Alice Williams</h6>
+											</div>
+										</div>
+									</blockquote>
+								</div>
+							</div>
+
+							<!-- Carousel Buttons Next/Prev -->
+						<!--	<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+							<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer_top_agile_w3ls">
+		<div class="container">
+			<div class="col-md-3 footer_grid">
+				<h3>About Us</h3>
+				<p>We are <a href="http://moneycontrol.com" target="_blank">moneycontrol.com</a>, the leading and one-stop destination for all needs money!</p>
+				<div class="social">
+					<ul>
+						<li><a href="https://www.facebook.com/moneycontrolFB"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/moneycontrolcom"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/+moneycontrol"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 footer_grid">
+				<h3>Latest News</h3>
+				<ul class="footer_grid_list">
+					<li><i class="fa fa-angle-right" aria-hidden="true"></i>
+						<a href="http://www.moneycontrol.com/stocksmarketsindia/">Markets </a>
+					</li>
+					<li><i class="fa fa-angle-right" aria-hidden="true"></i>
+						<a href="http://www.moneycontrol.com/mutualfundindia/">Mutual Funds </a>
+					</li>
+					<li><i class="fa fa-angle-right" aria-hidden="true"></i>
+						<a href="http://www.moneycontrol.com/commodity/">Commodities </a>
+					</li>
+					<li><i class="fa fa-angle-right" aria-hidden="true"></i>
+						<a href="http://www.moneycontrol.com/real-estate-property/">Property </a>
+					</li>
+					<li><i class="fa fa-angle-right" aria-hidden="true"></i>
+						<a href="http://www.moneycontrol.com/personal-finance/">Personal Finance </a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer_grid">
+				<h3>Contact Info</h3>
+				<ul class="address">
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i>One Indiabulls Centre, <span>Mumbai.</span></li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:forum@moneycontrol.com">forum@moneycontrol.com</a></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>022-3363 4400/li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer_grid ">
+				<h3>Sign up for our Newsletter</h3>
+				<p>Get Started For Free</p>
+				<div class="footer_grid_right">
+
+					<form action="#" method="post" name="emailform" id="emailform">
+						<input type="email" name="Email" placeholder="Email Address..." required="" style="height: 30px; margin-right: 10px;"> 
+						<button type="button" value="Submit" onclick="emailsending()" class="btn btn-warning"> Submit </button>
+					</form>
+					
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+
+		</div>
+	</div>
+	<div class="footer_wthree_agile">
+		<p>© 2017 Lively Chat. All rights reserved | Design by <a href="http://w3layouts.com">BitBot</a></p>
+
+	</div>
+
+	<!-- //footer -->
+	<!-- js -->
+			
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script>
+		$('ul.dropdown-menu li').hover(function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+		}, function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+		});
+	</script>
+	<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+	<!-- //stats -->
+
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
